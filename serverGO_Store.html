@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>serverGO Shop – Games &amp; Apps Store | serverGO Store</title>
+<meta name="description" content="serverGO Shop is the official serverGO store: browse, search and download games and apps made for the serverGO community.">
+<meta name="keywords" content="serverGO, serverGO shop, serverGO store, serverGO games, serverGO apps, serverGO download">
+<meta name="robots" content="index,follow,max-snippet:-1,max-image-preview:large">
+<meta name="application-name" content="serverGO Shop">
+<meta name="apple-mobile-web-app-title" content="serverGO Shop">
+<meta name="theme-color" content="#2f7bff">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="serverGO Shop">
+<meta property="og:title" content="serverGO Shop – Games &amp; Apps Store">
+<meta property="og:description" content="Browse, search and download games and apps in the serverGO Shop.">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="serverGO Shop – Games &amp; Apps Store">
+<meta name="twitter:description" content="Browse, search and download games and apps in the serverGO Shop.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%9B%92%3C/text%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebSite","name":"serverGO Shop","alternateName":["serverGO Store","serverGO shop","serverGO"],"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"WebApplication","name":"serverGO Shop","applicationCategory":"GameApplication","operatingSystem":"Any (web browser)","description":"The serverGO store for games and apps.","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}]}</script>
+<style>
+:root{box-sizing:border-box;--bg:#f2f4f7;--panel:#fff;--panel2:#e8ecf1;--tx:#14181f;--mut:#5b6573;--ac:#2f7bff;--ac2:#1f5fd6;--ok:#2aa55a;--bd:#d5dbe3;--sh:0 6px 20px #0002;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#10141b;--panel:#1a212c;--panel2:#232c3a;--tx:#e8edf5;--mut:#98a3b5;--ac:#4a90ff;--ac2:#2f75e6;--bd:#2c3748;--sh:0 6px 20px #0008}}
+:root[data-theme="dark"]{--bg:#10141b;--panel:#1a212c;--panel2:#232c3a;--tx:#e8edf5;--mut:#98a3b5;--ac:#4a90ff;--ac2:#2f75e6;--bd:#2c3748;--sh:0 6px 20px #0008}
+*{box-sizing:border-box}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--tx);font-family:system-ui,Segoe UI,Arial,sans-serif}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;display:flex;align-items:center;gap:12px;flex-wrap:wrap;padding:10px 18px;background:var(--panel);border-bottom:1px solid var(--bd)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--panel);z-index:11}
+.logo{font-weight:800;font-size:20px;letter-spacing:.5px}.logo span{color:var(--ac)}
+nav{display:flex;gap:4px}
+nav button,.btn{border:0;border-radius:8px;padding:8px 14px;font:inherit;font-size:14px;cursor:pointer;background:var(--panel2);color:var(--tx)}
+nav button.on{background:var(--ac);color:#fff}
+.btn.pri{background:var(--ac);color:#fff}.btn.pri:hover{background:var(--ac2)}.btn.ok{background:var(--ok);color:#fff}.btn.bad{background:#d64545;color:#fff}.btn:disabled{opacity:.5;cursor:not-allowed}
+.sp{flex:1}
+input,select,textarea{font:inherit;font-size:14px;padding:8px 10px;border-radius:8px;border:1px solid var(--bd);background:var(--bg);color:var(--tx);width:100%}
+textarea{min-height:80px;resize:vertical}
+header input[type=search]{width:220px}
+main{max-width:1100px;margin:0 auto;padding:18px}
+h2{margin:0 0 12px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.chip{padding:5px 12px;border-radius:99px;background:var(--panel2);cursor:pointer;font-size:13px}.chip.on{background:var(--ac);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--bd);border-radius:12px;overflow:hidden;cursor:pointer;transition:transform .15s,box-shadow .15s;display:flex;flex-direction:column}
+.card:hover{transform:translateY(-3px);box-shadow:var(--sh)}
+.cov{height:130px;display:flex;align-items:center;justify-content:center;font-size:44px;background-size:cover;background-position:center;color:#fff;text-shadow:0 2px 6px #0008}
+.cb{padding:10px 12px;display:flex;flex-direction:column;gap:4px;flex:1}
+.cb b{font-size:15px}.cb small{color:var(--mut)}
+.row{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:auto;padding-top:6px}
+.tag{font-size:11px;padding:2px 8px;border-radius:99px;background:var(--panel2);color:var(--mut)}
+.price{font-weight:700}
+.panel{background:var(--panel);border:1px solid var(--bd);border-radius:12px;padding:16px;margin-bottom:16px}
+.form{display:grid;grid-template-columns:1fr 1fr;gap:10px}.form .full{grid-column:1/-1}
+label{font-size:12px;color:var(--mut);display:block;margin-bottom:3px}
+.modal{position:fixed;inset:0;background:#000a;z-index:20;display:none;align-items:center;justify-content:center;padding:16px}
+.modal.on{display:flex}
+.mb{background:var(--panel);border-radius:14px;max-width:640px;width:100%;max-height:90vh;overflow:auto;box-shadow:var(--sh)}
+.mb .cov{height:200px}.mb .in{padding:16px;display:flex;flex-direction:column;gap:10px}
+.note{font-size:12px;color:var(--mut);line-height:1.5}
+.warn{background:#ffb3001f;border:1px solid #ffb30066;padding:10px;border-radius:8px;font-size:13px;line-height:1.5}
+.lst{display:flex;align-items:center;gap:10px;padding:8px;border:1px solid var(--bd);border-radius:10px;margin-bottom:8px;background:var(--bg)}
+.lst .cov{width:70px;height:46px;font-size:22px;border-radius:6px;flex:none}
+.lst .t{flex:1;min-width:0}.lst .t b{display:block;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#toast{position:fixed;left:50%;bottom:calc(20px + env(safe-area-inset-bottom,0px));transform:translateX(-50%);background:var(--tx);color:var(--bg);padding:10px 18px;border-radius:99px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .25s;z-index:30}
+.empty{text-align:center;color:var(--mut);padding:40px 10px}
+@media(max-width:600px){.form{grid-template-columns:1fr}header input[type=search]{width:100%}}
+</style>
+</head>
+<body>
+<h1 style="position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap">serverGO Shop – Games &amp; Apps Store</h1>
+<header>
+  <div class="logo">server<span>GO</span> Store</div>
+  <nav id="nav"></nav>
+  <div class="sp"></div>
+  <input type="search" id="q" placeholder="Search games and apps…">
+  <button class="btn" id="theme" title="Toggle theme">🌓</button>
+  <span id="who" class="note"></span>
+  <button class="btn pri" id="auth">Sign in</button>
+</header>
+<main id="main"><noscript><h2>serverGO Shop</h2><p>The serverGO Shop is the store for serverGO games and apps. Please enable JavaScript to browse and download them.</p></noscript></main>
+
+<div class="modal" id="dlg"><div class="mb" id="dlgb"></div></div>
+<div class="modal" id="login"><div class="mb"><div class="in">
+  <h2 style="margin:0">Sign in</h2>
+  <div class="warn">⚠️ This is a <b>local owner-mode gate</b>, not real authentication. Anyone who types the owner email on this page gets publisher access, and everything is stored only in this browser. Real, secure Google sign-in needs a Google OAuth Client ID plus a server that verifies the token.</div>
+  <div><label>Email</label><input id="em" type="email" placeholder="you@example.com" autocomplete="email"></div>
+  <div class="row"><button class="btn" id="lc">Cancel</button><button class="btn pri" id="ls">Continue</button></div>
+</div></div></div>
+<div id="toast"></div>
+
+<script>
+"use strict";
+const OWNER="kareemwaleedlutfe1@gmail.com";
+const KEY_ITEMS="sgo_store_items_v1",KEY_USER="sgo_store_user_v1",KEY_LIB="sgo_store_lib_v1",KEY_THEME="sgo_store_theme_v1";
+const GEN=["Action","Adventure","Sandbox","RPG","Puzzle","Strategy","Tool","Productivity","Other"];
+const $=s=>document.querySelector(s);
+const ld=(k,d)=>{try{const v=JSON.parse(localStorage.getItem(k));return v===null||v===undefined?d:v}catch(e){return d}};
+const sv=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));return true}catch(e){toast("Could not save (storage full or blocked)");return false}};
+const esc=s=>String(s==null?"":s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const SEED=[
+ {id:"seed-servergo",type:"game",title:"serverGO",tagline:"Minecraft-style sandbox with tech weapons, Nether and End.",desc:"Your voxel sandbox: mining, crafting, mobs, the Nether, the End and the Ender Dragon. Add the real link to your serverGO file in the publisher to make the Play button work.",price:0,genre:"Sandbox",url:"",cover:"",emoji:"🟩",hue:110,date:Date.now()-5e5,seed:true},
+ {id:"seed-app",type:"app",title:"Example App",tagline:"A placeholder app listing you can edit or delete.",desc:"Use the Publisher tab to replace this with your own app: set the title, description, price, genre, cover image and the link people open.",price:4.99,genre:"Tool",url:"",cover:"",emoji:"🧰",hue:210,date:Date.now()-4e5,seed:true}
+];
+let items=ld(KEY_ITEMS,null);if(!Array.isArray(items)){items=SEED.slice();sv(KEY_ITEMS,items)}
+let lib=ld(KEY_LIB,[]);if(!Array.isArray(lib))lib=[];
+let user=ld(KEY_USER,null);if(user&&typeof user.email!=="string")user=null;
+let view="store",flt="All",typeF="all",editId=null,draftCover="";
+const isOwner=()=>!!user&&user.email.toLowerCase()===OWNER;
+function toast(t){const e=$("#toast");e.textContent=t;e.style.opacity=1;clearTimeout(toast.t);toast.t=setTimeout(()=>e.style.opacity=0,2200)}
+function setTheme(t){if(t)document.documentElement.setAttribute("data-theme",t);else document.documentElement.removeAttribute("data-theme")}
+setTheme(ld(KEY_THEME,null));
+$("#theme").onclick=()=>{const dark=document.documentElement.getAttribute("data-theme")==="dark"||(!document.documentElement.hasAttribute("data-theme")&&matchMedia("(prefers-color-scheme:dark)").matches);const n=dark?"light":"dark";setTheme(n);sv(KEY_THEME,n)};
+const price=p=>p>0?"$"+Number(p).toFixed(2):"Free";
+const cov=it=>it.cover?`style="background-image:url('${it.cover}')"`:`style="background:linear-gradient(135deg,hsl(${it.hue||200} 60% 45%),hsl(${((it.hue||200)+50)%360} 60% 30%))"`;
+const covTxt=it=>it.cover?"":esc(it.emoji||(it.type==="app"?"📱":"🎮"));
+
+function nav(){const tabs=[["store","🛒 Store"],["lib","📚 Library ("+lib.length+")"]];if(isOwner())tabs.push(["pub","🚀 Publisher"]);
+ $("#nav").innerHTML=tabs.map(t=>`<button data-v="${t[0]}" class="${view===t[0]?"on":""}">${t[1]}</button>`).join("");
+ $("#nav").querySelectorAll("button").forEach(b=>b.onclick=()=>{view=b.dataset.v;render()});
+ $("#who").textContent=user?(isOwner()?"👑 Owner · ":"")+user.email:"";
+ $("#auth").textContent=user?"Sign out":"Sign in"}
+function card(it){const own=lib.includes(it.id);
+ return `<div class="card" data-id="${esc(it.id)}"><div class="cov" ${cov(it)}>${covTxt(it)}</div><div class="cb"><b>${esc(it.title)}</b><small>${esc(it.tagline)}</small><div><span class="tag">${it.type==="app"?"App":"Game"}</span> <span class="tag">${esc(it.genre)}</span></div><div class="row"><span class="price">${own?"✅ In library":price(it.price)}</span><span class="note">View ›</span></div></div></div>`}
+function bindCards(){document.querySelectorAll(".card").forEach(c=>c.onclick=()=>openItem(c.dataset.id))}
+function filtered(){const q=$("#q").value.trim().toLowerCase();
+ return items.filter(i=>(typeF==="all"||i.type===typeF)&&(flt==="All"||i.genre===flt)&&(!q||(i.title+" "+i.tagline+" "+i.desc).toLowerCase().includes(q))).sort((a,b)=>b.date-a.date)}
+function renderStore(){const gs=["All",...new Set(items.map(i=>i.genre))];
+ const list=filtered();
+ $("#main").innerHTML=`<h2>Featured &amp; New</h2><div class="chips">${[["all","Everything"],["game","Games"],["app","Apps"]].map(t=>`<span class="chip tf ${typeF===t[0]?"on":""}" data-t="${t[0]}">${t[1]}</span>`).join("")}<span style="width:12px"></span>${gs.map(g=>`<span class="chip gf ${flt===g?"on":""}" data-g="${esc(g)}">${esc(g)}</span>`).join("")}</div>${list.length?`<div class="grid">${list.map(card).join("")}</div>`:`<div class="empty">Nothing matches. ${isOwner()?"Add something in the Publisher tab.":""}</div>`}`;
+ document.querySelectorAll(".tf").forEach(c=>c.onclick=()=>{typeF=c.dataset.t;render()});
+ document.querySelectorAll(".gf").forEach(c=>c.onclick=()=>{flt=c.dataset.g;render()});bindCards()}
+function renderLib(){const list=items.filter(i=>lib.includes(i.id));
+ $("#main").innerHTML=`<h2>Your Library</h2>${list.length?`<div class="grid">${list.map(card).join("")}</div>`:`<div class="empty">Your library is empty. Open an item in the Store and press “Add to library”.</div>`}`;bindCards()}
+function openItem(id){const it=items.find(i=>i.id===id);if(!it)return;const own=lib.includes(id);
+ $("#dlgb").innerHTML=`<div class="cov" ${cov(it)}>${covTxt(it)}</div><div class="in"><h2 style="margin:0">${esc(it.title)}</h2><div><span class="tag">${it.type==="app"?"App":"Game"}</span> <span class="tag">${esc(it.genre)}</span> <span class="tag">${price(it.price)}</span></div><div style="line-height:1.6;white-space:pre-wrap">${esc(it.desc)}</div>${it.price>0?`<div class="note">Demo store: there is no real payment processing. “Buy” only adds the item to this browser’s library.</div>`:""}<div class="row"><button class="btn" id="dx">Close</button><span style="display:flex;gap:8px"><button class="btn ${own?"":"pri"}" id="da">${own?"Remove from library":(it.price>0?"Buy (demo) "+price(it.price):"Add to library")}</button><button class="btn ok" id="dp" ${it.url?"":"disabled"}>${it.url?(it.type==="app"?"Open app":"Play"):"No link set"}</button></span></div></div>`;
+ $("#dlg").classList.add("on");
+ $("#dx").onclick=()=>$("#dlg").classList.remove("on");
+ $("#da").onclick=()=>{if(own)lib=lib.filter(x=>x!==id);else lib.push(id);sv(KEY_LIB,lib);$("#dlg").classList.remove("on");toast(own?"Removed":"Added to library");render()};
+ $("#dp").onclick=()=>{if(it.url&&!/^\s*javascript:/i.test(it.url))window.open(it.url,"_blank","noopener")}}
+$("#dlg").onclick=e=>{if(e.target.id==="dlg")$("#dlg").classList.remove("on")};
+
+function renderPub(){if(!isOwner()){view="store";return render()}
+ const e=editId?items.find(i=>i.id===editId):null;draftCover=e?e.cover||"":"";
+ $("#main").innerHTML=`<h2>Publisher</h2><div class="panel"><h3 style="margin-top:0">${e?"Edit listing":"New listing"}</h3><div class="form">
+ <div><label>Type</label><select id="f_type"><option value="game">Game</option><option value="app">App</option></select></div>
+ <div><label>Genre</label><select id="f_genre">${GEN.map(g=>`<option>${g}</option>`).join("")}</select></div>
+ <div class="full"><label>Title *</label><input id="f_title" maxlength="60"></div>
+ <div class="full"><label>Tagline</label><input id="f_tag" maxlength="100"></div>
+ <div class="full"><label>Description</label><textarea id="f_desc" maxlength="2000"></textarea></div>
+ <div><label>Price (USD, 0 = free)</label><input id="f_price" type="number" min="0" step="0.01" value="0"></div>
+ <div><label>Emoji icon (used when there is no cover)</label><input id="f_emoji" maxlength="4" placeholder="🎮"></div>
+ <div class="full"><label>Link people open (any URL or file path)</label><input id="f_url" type="text" placeholder="Any link or file path, e.g. https://… or serverGO.html"></div>
+ <div class="full"><label>Cover image (optional, resized and stored in this browser)</label><input id="f_cover" type="file" accept="image/*"><div class="note" id="f_cn">${draftCover?"Cover set.":"No cover selected."}</div></div>
+ </div><div class="row" style="margin-top:12px"><button class="btn" id="f_clr">${e?"Cancel edit":"Clear"}</button><button class="btn pri" id="f_save">${e?"Save changes":"Publish to store"}</button></div></div>
+ <div class="panel"><h3 style="margin-top:0">Your listings (${items.length})</h3>${items.map(i=>`<div class="lst"><div class="cov" ${cov(i)}>${covTxt(i)}</div><div class="t"><b>${esc(i.title)}</b><span class="note">${i.type==="app"?"App":"Game"} · ${price(i.price)}${i.url?"":" · no link"}</span></div><button class="btn" data-e="${esc(i.id)}">Edit</button><button class="btn bad" data-d="${esc(i.id)}">Delete</button></div>`).join("")||'<div class="empty">No listings yet.</div>'}
+ <div class="row"><span style="display:flex;gap:8px"><button class="btn" id="ex">Export JSON</button><button class="btn" id="im">Import JSON</button></span><input type="file" id="imf" accept="application/json" style="display:none"></div>
+ <div class="note" style="margin-top:8px">Listings live in this browser’s storage only. Use Export to back them up or move them to another browser. To make a store that other people can see, host this file and keep the listings in a real database behind a login.</div></div>`;
+ if(e){$("#f_type").value=e.type;$("#f_genre").value=e.genre;$("#f_title").value=e.title;$("#f_tag").value=e.tagline;$("#f_desc").value=e.desc;$("#f_price").value=e.price;$("#f_emoji").value=e.emoji||"";$("#f_url").value=e.url||""}
+ $("#f_cover").onchange=ev=>{const f=ev.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{const im=new Image();im.onload=()=>{const c=document.createElement("canvas"),s=Math.min(1,640/im.width);c.width=Math.round(im.width*s);c.height=Math.round(im.height*s);c.getContext("2d").drawImage(im,0,0,c.width,c.height);draftCover=c.toDataURL("image/jpeg",.8);$("#f_cn").textContent="Cover ready.";};im.onerror=()=>toast("Could not read that image");im.src=r.result};r.readAsDataURL(f)};
+ $("#f_clr").onclick=()=>{editId=null;renderPub()};
+ $("#f_save").onclick=()=>{const t=$("#f_title").value.trim();if(!t)return toast("Title is required");
+  const u=$("#f_url").value.trim();
+  const p=Math.max(0,parseFloat($("#f_price").value)||0);
+  const o={id:e?e.id:"it-"+Date.now().toString(36)+Math.random().toString(36).slice(2,6),type:$("#f_type").value,title:t,tagline:$("#f_tag").value.trim(),desc:$("#f_desc").value.trim(),price:p,genre:$("#f_genre").value,url:u,cover:draftCover,emoji:$("#f_emoji").value.trim(),hue:e?e.hue:Math.floor(Math.random()*360),date:e?e.date:Date.now()};
+  if(e)items=items.map(i=>i.id===e.id?o:i);else items.unshift(o);
+  if(sv(KEY_ITEMS,items)){toast(e?"Saved":"Published");editId=null;renderPub()}};
+ document.querySelectorAll("[data-e]").forEach(b=>b.onclick=()=>{editId=b.dataset.e;renderPub();scrollTo(0,0)});
+ document.querySelectorAll("[data-d]").forEach(b=>b.onclick=()=>{const i=items.find(x=>x.id===b.dataset.d);if(!i||!confirm("Delete “"+i.title+"”?"))return;items=items.filter(x=>x.id!==i.id);lib=lib.filter(x=>x!==i.id);sv(KEY_ITEMS,items);sv(KEY_LIB,lib);renderPub()});
+ $("#ex").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(items)],{type:"application/json"}));a.download="serverGO-store-listings.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000)};
+ $("#im").onclick=()=>$("#imf").click();
+ $("#imf").onchange=ev=>{const f=ev.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const a=JSON.parse(r.result);if(!Array.isArray(a)||a.some(x=>!x||typeof x.id!=="string"||typeof x.title!=="string"))throw 0;const ids=new Set(items.map(i=>i.id));a.forEach(x=>{if(!ids.has(x.id))items.push({type:"game",tagline:"",desc:"",price:0,genre:"Other",url:"",cover:"",emoji:"",hue:200,date:Date.now(),...x})});sv(KEY_ITEMS,items);toast("Imported");renderPub()}catch(er){toast("Invalid listings file")}};r.readAsText(f)};}
+
+function render(){nav();if(view==="lib")renderLib();else if(view==="pub")renderPub();else renderStore()}
+$("#q").oninput=()=>{if(view!=="store"){view="store"}render()};
+$("#auth").onclick=()=>{if(user){user=null;try{localStorage.removeItem(KEY_USER)}catch(e){}view="store";toast("Signed out");render()}else{$("#login").classList.add("on");$("#em").focus()}};
+$("#lc").onclick=()=>$("#login").classList.remove("on");
+function doLogin(){const v=$("#em").value.trim().toLowerCase();if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(v))return toast("Enter a valid email");
+ user={email:v};sv(KEY_USER,user);$("#login").classList.remove("on");$("#em").value="";toast(isOwner()?"Welcome back, owner — Publisher unlocked":"Signed in (no publisher access)");if(isOwner())view="pub";render()}
+$("#ls").onclick=doLogin;$("#em").onkeydown=e=>{if(e.key==="Enter")doLogin()};
+$("#login").onclick=e=>{if(e.target.id==="login")$("#login").classList.remove("on")};
+addEventListener("keydown",e=>{if(e.key==="Escape"){$("#dlg").classList.remove("on");$("#login").classList.remove("on")}});
+render();
+</script>
+</body>
+</html>
